@@ -13,8 +13,8 @@ export default {
         // }
         // ...mapActions(['increase', 'increment'])
         ...mapActions({
-            inc: 'increment',
-            increase: 'increase',
+            inc: 'counter/increment',
+            increase: 'counter/increase',
         })
     }
 }
